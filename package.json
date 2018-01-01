@@ -1,0 +1,29 @@
+{
+  "name": "dl-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeton Shehu",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "dependencies": {},
+  "keywords": [
+    "doubly",
+    "linked",
+    "list"
+  ],
+  "description": "This package is a javascript implementation of Doubly Linked List.",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jshehu/dl-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jshehu/dl-list/issues"
+  },
+  "homepage": "https://github.com/jshehu/dl-list#readme"
+}
