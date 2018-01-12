@@ -271,6 +271,32 @@ class DoublyLinkedList {
   }
 
   /**
+   * Iterate list items.
+   */
+  * itemsIterator() {
+    if (this._head) {
+      let iterator = this._head;
+      while (iterator) {
+        yield iterator.getItem();
+        iterator = iterator.getNext();
+      }
+    }
+  }
+
+  /**
+   * Iterate list items in reverse.
+   */
+  * itemsReverseIterator() {
+    if (this._tail) {
+      let iterator = this._tail;
+      while (iterator) {
+        yield iterator.getItem();
+        iterator = iterator.getPrev();
+      }
+    }
+  }
+
+  /**
    * Get node's number.
    * @return {number}
    */

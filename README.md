@@ -19,7 +19,9 @@ This package is a javascript implementation of Doubly Linked List.
  - `list#getLast()` - Get last node in list.
  - `list#has(item)` - Determine whether item exists in list.
  - `list#iterator()` - Return an iterator over list nodes.
- - `list#reverseIterator()` - Return an iterator over list nodes in reverse order.
+ - `list#reverseIterator()` - Return an iterator over list items in reverse order.
+ - `list#itemsIterator()` - Return an iterator over list items.
+ - `list#itemsReverseIterator()` - Return an iterator over list items in reverse order.
  - `list#length()` - Return number of nodes.
 #### Node
  - `node#setNext(node)` - Set next node.
